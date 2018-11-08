@@ -4,7 +4,7 @@
         <nav class="navbar" role="navigation" aria-label="main navigation">
           <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item has-text-warning is-size-5">
+            <a class="logo">
             MhaoMhao
             </a>
           </div>
@@ -27,7 +27,7 @@
               รายงาน
             </a>
             <div class="navbar-item">
-              <user-icon :width="20" :height="20"/>
+              <user-icon width="20px" height="20px" />
             </div>
            </div>
           </div>
@@ -61,5 +61,13 @@ export default {
 }
 #navbar {
   width: 100%;
+}
+.logo{
+  display: flex;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+  color: #FFB302;
 }
 </style>

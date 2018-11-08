@@ -1,6 +1,5 @@
 <template>
 <!-- <h1>{{ msg }}</h1> -->
-  <div class="card-container">
     <div class="farm-card">
       <div class="farm-pic">//pic</div>
       <div class="farm-desc">
@@ -8,7 +7,6 @@
 
       </div>
     </div>
-  </div>  
 </template>
 
 <script>
@@ -22,14 +20,17 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-  .card-container{
-    display: flex;
-    justify-content: space-between;
-  }
+
   .farm-card{
-    margin-top: 10px;
-    width: 200px;
-    height: 500px;
+    width: 150px;
+    background-color: white;
+    flex-basis: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .farm-card:hover{
+    box-shadow: 0 0 11px #FFB302;;
+    
   }
   .farm-pic{
     position: relative;

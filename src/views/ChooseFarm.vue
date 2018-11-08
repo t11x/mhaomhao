@@ -1,8 +1,13 @@
 <template>
   <div class="ChooseFarm">
     <div class="container">
-    <h1>เปิดประมูลสินค้า</h1>
+      <div class="auc-title">เปิดประมูลสินค้า</div>
     <div class="card-container">
+    <FarmBox msg="Hi"/>
+    <FarmBox msg="Hi"/>
+    <FarmBox msg="Hi"/>
+    <FarmBox msg="Hi"/>
+    <FarmBox msg="Hi"/>
     <FarmBox msg="Hi"/>
     </div>
     </div>
@@ -24,7 +29,23 @@ export default {
 <style lang="scss" scoped>
   .card-container{
     display: flex;
-    justify-content: space-between;
+    // flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-items:flex-start;
+    background-color: white;
+    padding: 15px;
+    height: 150%;
+  }
+  .auc-title{
+    display: flex;
+    font-size: 27px;
+    font-weight: 500;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-top: 1.2%;
+    margin-bottom: 1.2%;
+
   }
 </style>
 
