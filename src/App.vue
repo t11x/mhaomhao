@@ -27,15 +27,15 @@
               รายงาน
             </a>
             <div class="navbar-item">
-              <font-awesome-icon icon="user" />
+              <font-awesome-icon icon="coffee" />
             </div>
            </div>
           </div>
           </div>
         </nav>
     
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
   </div>
