@@ -27,7 +27,7 @@
               รายงาน
             </a>
             <div class="navbar-item">
-              <font-awesome-icon icon="coffee" />
+              <user-icon :width="20" :height="20"/>
             </div>
            </div>
           </div>
@@ -40,10 +40,20 @@
     <router-view/>
   </div>
 </template>
+ 
+<script>
+import UserIcon from '@/assets/icons/user-solid.vue'
+export default {
+  components:{
+    UserIcon
+  }
+}
+</script>
+
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Prompt', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;

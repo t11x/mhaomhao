@@ -2,20 +2,29 @@
   <div class="ChooseFarm">
     <div class="container">
     <h1>เปิดประมูลสินค้า</h1>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="card-container">
+    <FarmBox msg="Hi"/>
+    </div>
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import FarmBox from '@/components/FarmBox.vue'
 
 export default {
   name: 'ChooseFarm',
   components: {
-    HelloWorld
-    // ,Navbar
+    FarmBox
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  .card-container{
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+
