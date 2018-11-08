@@ -3,12 +3,12 @@
     <div class="container">
       <div class="auc-title">เปิดประมูลสินค้า</div>
     <div class="card-container">
-    <FarmBox msg="Hi"/>
-    <FarmBox msg="Hi"/>
-    <FarmBox msg="Hi"/>
-    <FarmBox msg="Hi"/>
-    <FarmBox msg="Hi"/>
-    <FarmBox msg="Hi"/>
+    <FarmBox farmname="Orange Farm" location="นครนายก, นครนายก" type="ส้ม" species="ORNG_001" area="100" amount="1,000" harvestable="950" date="14 กันยายน 2561"/>
+    <FarmBox farmname="Orange Farm" location="นครนายก, นครนายก" type="ส้ม" species="ORNG_001" area="100" amount="1,000" harvestable="950" date="14 กันยายน 2561"/>
+    <FarmBox farmname="Orange Farm" location="นครนายก, นครนายก" type="ส้ม" species="ORNG_001" area="100" amount="1,000" harvestable="950" date="14 กันยายน 2561"/>
+    <FarmBox farmname="Orange Farm" location="นครนายก, นครนายก" type="ส้ม" species="ORNG_001" area="100" amount="1,000" harvestable="950" date="14 กันยายน 2561"/>
+    <FarmBox farmname="Orange Farm" location="นครนายก, นครนายก" type="ส้ม" species="ORNG_001" area="100" amount="1,000" harvestable="950" date="14 กันยายน 2561"/>
+    <FarmBox farmname="Orange Farm" location="นครนายก, นครนายก" type="ส้ม" species="ORNG_001" area="100" amount="1,000" harvestable="950" date="14 กันยายน 2561"/>
     </div>
     </div>
   </div>
