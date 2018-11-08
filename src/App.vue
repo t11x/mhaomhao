@@ -1,8 +1,35 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div id="navi">
+      <div class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item has-text-warning is-size-5">
+            MhaoMhao
+            </a>
+          </div>
+
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+          </div>
+
+           <div class="navbar-end">
+            <div class="navbar-item">
+            <div class="buttons">
+          <a class="button is-primary">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-ligh">
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+</div>
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
   </div>
