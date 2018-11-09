@@ -11,23 +11,13 @@
 
           <div id="navbarBasicExample" class="navbar-menu">
            <div class="navbar-end">
-            <a class="navbar-item">
-              รายการประมูล
-            </a>
-            <a class="navbar-item">
-              การจ้างงาน
-            </a>
-            <a class="navbar-item">
-              บัญชี
-            </a>
-            <a class="navbar-item">
-              ขนส่งสินค้า
-            </a>
-            <a class="navbar-item">
-              รายงาน
-            </a>
+            <a class="navbar-item">รายการประมูล</a>
+            <a class="navbar-item">การจ้างงาน</a>
+            <a class="navbar-item">บัญชี</a>
+            <a class="navbar-item">ขนส่งสินค้า</a>
+            <a class="navbar-item">รายงาน</a>
             <div class="navbar-item">
-              <user-icon width="20px" height="20px" />
+            <user-icon width="20px" height="20px" />
             </div>
            </div>
           </div>
@@ -38,6 +28,15 @@
       <router-link to="/about">About</router-link> -->
     </div>
     <router-view/>
+    <footer class="footerz">
+  <div class="content has-text-centered">
+    <p>
+      <strong>X</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
   </div>
 </template>
  
@@ -69,5 +68,13 @@ export default {
   align-items: center;
   font-weight: 600;
   color: #FFB302;
+}
+.footerz{
+  margin-top: 50px;
+  box-shadow: 3px 3px 3px 3px;
+  height: 20px;
+  padding: 1rem;
+  padding-bottom: 2.5rem;
+  background: white;
 }
 </style>

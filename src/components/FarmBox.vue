@@ -72,6 +72,5 @@ export default {
     font-weight: bold;
     color: #FFB302;
     text-align: start;
-    
   }
 </style>
