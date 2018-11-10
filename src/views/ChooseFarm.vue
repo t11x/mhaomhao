@@ -6,7 +6,7 @@
           
           <label>ฟาร์มที่เลือกเปิดทำการประมูล</label>
           <hr>
-          <label>ฟาร์มที่เลือกเปิดทำการประมูล : </label>
+          <label>ฟาร์มที่เลือกเปิดทำการประมูล : </label><angle-right-icon width="30" height="30"/>
           <a class="button yello">ถัดไป</a>
           <div class="card-container">
           <FarmBox farmname="Orange Farm" location="นครนายก, นครนายก" type="ส้ม" species="ORNG_001" area="100" amount="1,000" harvestable="950" date="14 กันยายน 2561"/>
